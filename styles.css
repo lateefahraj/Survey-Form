@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    background-image: url(GDD.png);
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100%;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+form {
+    width: 60vw;
+    max-width: max-content;
+    min-width: 400px;
+    padding-left: 2.7em;
+    padding-right: 2.7em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    background-color: #040225 ;
+    opacity: 0.9;
+    margin: 0 auto;
+    border-radius: 6px;
+} 
+label {
+    display: block;
+    margin: 0.5rem 0;
+    font-size: 18px;
+    margin: 0.5em auto;
+}
+h1, p {
+    text-align: center ;
+    margin: 0.5em auto;
+}
+p {
+    font-size: 18px;
+    font-style: italic;
+    padding-bottom: 1.5em;
+    opacity: 80%;
+}
+h1 {
+    font-size: 26px;
+    padding-top: 1.5em;
+}
+fieldset {
+    border: none;
+    padding: 0.5rem 0;
+}
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    height: 2.5em;
+    font-size: 1.1rem;
+    background-color: rgb(3, 143, 54);
+    color: #ffffff;
+    border-color: rgb(3, 141, 54);
+    max-width: 600px;
+    margin: 2em auto;
+}
+input, textarea, select {
+    font-size: 17px;
+}
+input, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-width: 2em;
+    height: 35px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #000000;
+    border-radius: 4px;
+}
+textarea {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-width: 2em
+}
+input, textarea {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #000000;
+}
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+input[type="checkbox"] {
+    height: 20px;
+}
+input[type="radio"] {
+    height: 20px;
+}

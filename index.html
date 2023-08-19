@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=width-device, initial-scale=1.0">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>theInventiveDesigns Survey Form</h1>
+        <p>Thank you for taking the time to help us improve our services</p>
+        <form>
+            <fieldset>
+                <label for="name">Name <input id="name" placeholder="Enter your name" name="name" type="text" required />
+                </label>
+                <label for="brand-name">Brand name <input id="brand-name" placeholder="Enter your brand name" name="brand-name" optional />
+                </label>
+                <label for="email">Email <input id="email" name="email" placeholder="Enter your email" type="text" required />
+                </label>
+                <label for="occupation">What best describes your current role?
+                    <select id="occupation" name="occupation">
+                        <option value="">Select an option</option>
+                        <option value="1">Student</option> 
+                        <option value="2">Enterpreneur</option>
+                        <option value="3">Prefer not to say</option>
+                        <option value="4">other</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>Would you recommend theInventiveDesigns to a friend?</label>
+                <label><input type="radio" name="recommendation" class="inline" />Definately</label>
+                <label><input type="radio" name="recommendation" class="inline" />Maybe</label>
+                <label><input type="radio" name="recommendation" class="inline" />Not sure</label>
+            </fieldset>
+            <fieldset>
+                <label for="likey">What do you like about us?
+                    <select id="likey" name="likey">
+                        <option value="">Select an option</option>
+                        <option value="1">Swift Delivery</option>
+                        <option value="2">Affordable Price</option>
+                        <option value="3">Good Customer Service</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>What would you like to see improved? (check all that apply)</label>
+                <label><input type="checkbox" class="inline" />Design Style</label>
+                <label><input type="checkbox" class="inline" />New Font-family</label>
+                <label><input type="checkbox" class="inline" />Document Format</label>
+                <label><input type="checkbox" class="inline" />Presentation</label>
+                <label><input type="checkbox" class="inline" />Image Quality</label>
+            </fieldset>
+            <fieldset>
+            <label for="comments">Any comments or suggestions?
+                <textarea name="comments" id="comments" rows="8" cols="35" placeholder="Enter your comments here..."></textarea>
+            </label>
+            </fieldset>
+            <input type="submit" value="Submit" />
+        </form>
+    </body>
+</html>
